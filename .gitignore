@@ -21,3 +21,6 @@ dist/
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
+
+# Ignore temporary files created by Word and other editors
+*~$
