@@ -1,0 +1,308 @@
+Name:
+
+Date:
+
+Periode:
+
+                    State Capitals Quiz (Form 26)
+
+1 Was ist die Hautpstadt von New Mexico
+   A. Santa Fe
+   B. Charleston
+   C. Montgomery
+   D. Little Rock
+
+2 Was ist die Hautpstadt von Iowa
+   A. Boise
+   B. Des Moines
+   C. Indianapolis
+   D. Santa Fe
+
+3 Was ist die Hautpstadt von North Dakota
+   A. Lincoln
+   B. Tallahassee
+   C. Charleston
+   D. Bismarck
+
+4 Was ist die Hautpstadt von Idaho
+   A. Boise
+   B. Hartford
+   C. Raleigh
+   D. Jackson
+
+5 Was ist die Hautpstadt von Illinois
+   A. Saint Paul
+   B. Des Moines
+   C. Springfield
+   D. Lansing
+
+6 Was ist die Hautpstadt von Louisiana
+   A. Baton Rouge
+   B. Hartford
+   C. Tallahassee
+   D. Honolulu
+
+7 Was ist die Hautpstadt von Tennessee
+   A. Indianapolis
+   B. Lincoln
+   C. Nashville
+   D. Salem
+
+8 Was ist die Hautpstadt von Nevada
+   A. Carson City
+   B. Tallahassee
+   C. Pierre
+   D. Annapolis
+
+9 Was ist die Hautpstadt von Florida
+   A. Tallahassee
+   B. Atlanta
+   C. Des Moines
+   D. Indianapolis
+
+10 Was ist die Hautpstadt von Missouri
+   A. Jefferson City
+   B. Topeka
+   C. Columbia
+   D. Helena
+
+11 Was ist die Hautpstadt von Oklahoma
+   A. Oklahoma City
+   B. Atlanta
+   C. Baton Rouge
+   D. Hartford
+
+12 Was ist die Hautpstadt von California
+   A. Trenton
+   B. Honolulu
+   C. Sacramento
+   D. Denver
+
+13 Was ist die Hautpstadt von South Dakota
+   A. Harrisburg
+   B. Indianapolis
+   C. Augusta
+   D. Pierre
+
+14 Was ist die Hautpstadt von Alabama
+   A. Raleigh
+   B. Saint Paul
+   C. Montgomery
+   D. Lansing
+
+15 Was ist die Hautpstadt von South Carolina
+   A. Columbia
+   B. Phoenix
+   C. Austin
+   D. Salt Lake City
+
+16 Was ist die Hautpstadt von Wyoming
+   A. Cheyenne
+   B. Columbus
+   C. Austin
+   D. Saint Paul
+
+17 Was ist die Hautpstadt von Maine
+   A. Providence
+   B. Annapolis
+   C. Augusta
+   D. Dover
+
+18 Was ist die Hautpstadt von Connecticut
+   A. Columbia
+   B. Hartford
+   C. Salem
+   D. Santa Fe
+
+19 Was ist die Hautpstadt von Mississippi
+   A. Concord
+   B. Nashville
+   C. Jackson
+   D. Jefferson City
+
+20 Was ist die Hautpstadt von Rhode Island
+   A. Hartford
+   B. Annapolis
+   C. Boston
+   D. Providence
+
+21 Was ist die Hautpstadt von Vermont
+   A. Nashville
+   B. Montpelier
+   C. Madison
+   D. Frankfort
+
+22 Was ist die Hautpstadt von Washington
+   A. Saint Paul
+   B. Olympia
+   C. Atlanta
+   D. Lincoln
+
+23 Was ist die Hautpstadt von Arizona
+   A. Jackson
+   B. Albany
+   C. Montgomery
+   D. Phoenix
+
+24 Was ist die Hautpstadt von Oregon
+   A. Salem
+   B. Concord
+   C. Helena
+   D. Oklahoma City
+
+25 Was ist die Hautpstadt von Ohio
+   A. Annapolis
+   B. Austin
+   C. Frankfort
+   D. Columbus
+
+26 Was ist die Hautpstadt von Wisconsin
+   A. Madison
+   B. Baton Rouge
+   C. Oklahoma City
+   D. Trenton
+
+27 Was ist die Hautpstadt von Minnesota
+   A. Hartford
+   B. Atlanta
+   C. Saint Paul
+   D. Columbus
+
+28 Was ist die Hautpstadt von Alaska
+   A. Honolulu
+   B. Jackson
+   C. Charleston
+   D. Juneau
+
+29 Was ist die Hautpstadt von Montana
+   A. Cheyenne
+   B. Jefferson City
+   C. Helena
+   D. Salt Lake City
+
+30 Was ist die Hautpstadt von North Carolina
+   A. Juneau
+   B. Pierre
+   C. Raleigh
+   D. Frankfort
+
+31 Was ist die Hautpstadt von Nebraska
+   A. Santa Fe
+   B. Richmond
+   C. Lincoln
+   D. Salt Lake City
+
+32 Was ist die Hautpstadt von Massachusetts
+   A. Topeka
+   B. Helena
+   C. Boston
+   D. Columbus
+
+33 Was ist die Hautpstadt von Arkansas
+   A. Boise
+   B. Little Rock
+   C. Carson City
+   D. Concord
+
+34 Was ist die Hautpstadt von West Virginia
+   A. Charleston
+   B. Richmond
+   C. Atlanta
+   D. Topeka
+
+35 Was ist die Hautpstadt von New York
+   A. Boise
+   B. Albany
+   C. Juneau
+   D. Richmond
+
+36 Was ist die Hautpstadt von Pennsylvania
+   A. Raleigh
+   B. Harrisburg
+   C. Columbus
+   D. Frankfort
+
+37 Was ist die Hautpstadt von Kentucky
+   A. Saint Paul
+   B. Austin
+   C. Frankfort
+   D. Montpelier
+
+38 Was ist die Hautpstadt von New Hampshire
+   A. Little Rock
+   B. Concord
+   C. Honolulu
+   D. Oklahoma City
+
+39 Was ist die Hautpstadt von Maryland
+   A. Nashville
+   B. Cheyenne
+   C. Springfield
+   D. Annapolis
+
+40 Was ist die Hautpstadt von New Jersey
+   A. Trenton
+   B. Carson City
+   C. Providence
+   D. Des Moines
+
+41 Was ist die Hautpstadt von Texas
+   A. Austin
+   B. Columbus
+   C. Oklahoma City
+   D. Lansing
+
+42 Was ist die Hautpstadt von Delaware
+   A. Dover
+   B. Jackson
+   C. Nashville
+   D. Charleston
+
+43 Was ist die Hautpstadt von Utah
+   A. Cheyenne
+   B. Juneau
+   C. Charleston
+   D. Salt Lake City
+
+44 Was ist die Hautpstadt von Indiana
+   A. Indianapolis
+   B. Charleston
+   C. Tallahassee
+   D. Harrisburg
+
+45 Was ist die Hautpstadt von Georgia
+   A. Montgomery
+   B. Baton Rouge
+   C. Atlanta
+   D. Indianapolis
+
+46 Was ist die Hautpstadt von Michigan
+   A. Madison
+   B. Hartford
+   C. Lansing
+   D. Jackson
+
+47 Was ist die Hautpstadt von Kansas
+   A. Oklahoma City
+   B. Topeka
+   C. Frankfort
+   D. Olympia
+
+48 Was ist die Hautpstadt von Hawaii
+   A. Honolulu
+   B. Oklahoma City
+   C. Raleigh
+   D. Salt Lake City
+
+49 Was ist die Hautpstadt von Virginia
+   A. Richmond
+   B. Topeka
+   C. Annapolis
+   D. Trenton
+
+50 Was ist die Hautpstadt von Colorado
+   A. Phoenix
+   B. Denver
+   C. Olympia
+   D. Charleston
+

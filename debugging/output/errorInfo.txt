@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "f:\Backup-23-01-25-a\D-backup-2023-01-25\desk-ab-21\office-training\Python-ordner-a\python-scripts_vs-code\sonstige_projekte\python_Ai_Sweigert\Routine_Aufgaben_Automatisieren\debugging\work\ab_seite_270.py", line 30, in <module>
+    raise Exception("Das ist eine Fehlermeldung die in die Datei gespeicher wird.")
+Exception: Das ist eine Fehlermeldung die in die Datei gespeicher wird.
