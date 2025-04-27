@@ -30,4 +30,11 @@ def regex_strip(text:str, char:str="")->str:
     else:
         result = re.sub(gesamt_regex, subst, text)
     return result
+
+def regex_strip_refact(text:str, char:str="")->str:
+    subst =r"\2"
+    subst =f"{char}{subst}{char}"
+    result = re.sub(original_regex, subst, text)
+    return result
+
 print(regex_strip(testtxt,"+"))
