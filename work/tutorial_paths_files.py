@@ -1,6 +1,7 @@
 from pathlib import Path
 import chardet
 from pprint import pprint
+from pprint import pformat
 import shelve
 
 myFiles = ["account.txt", "detail.csv", "invite.docx"]
@@ -50,3 +51,13 @@ shelve_file.close()
 shelvefile_open = shelve.open(shelve_file_path)
 print(shelvefile_open["cats"])
 shelvefile_open.close()
+
+cats_file_path = outputpath / "my_cats.py"
+cats = [
+    {'name': "Zophie", "desc": "Chubby"},
+    {'name': 'Pooka', 'desc': 'fluffy'}
+        ]
+pprint(pformat(cats))
+file_obj = open(cats_file_path, "w", encoding="utf-8")
+file_obj.write("cats = " + pformat(cats) +"\n")
+file_obj.close()
