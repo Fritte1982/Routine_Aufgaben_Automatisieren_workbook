@@ -10,7 +10,7 @@ import shelve
 import pyperclip # Dritt-Anbieter Package fürs Clpiboard
 
 MCB_PROJEKT_ORDNER = Path(
-r"F:\Backup-23-01-25-a\D-backup-2023-01-25\desk-ab-21\office-training\Python-ordner-a\python-scripts_vs-code\sonstige_projekte\python_Ai_Sweigert\Routine_Aufgaben_Automatisieren\projekt_mcb")
+    r"/projects/projekt_mcb")
 os.chdir(MCB_PROJEKT_ORDNER)
 
 print(Path.cwd())
@@ -22,7 +22,7 @@ print(Path.cwd())
 #                                         in die Zwischenablage
 #          py.exe mcb.pyw list - Lädt alle Schlüsselwörter in die Zwischenablage
 
-mcbShelve_path = r"F:\Backup-23-01-25-a\D-backup-2023-01-25\desk-ab-21\office-training\Python-ordner-a\python-scripts_vs-code\sonstige_projekte\python_Ai_Sweigert\Routine_Aufgaben_Automatisieren\projekt_mcb\mcb"
+mcbShelve_path = r"/projects/projekt_mcb\mcb"
 
 mcbShelve = shelve.open(mcbShelve_path)
 

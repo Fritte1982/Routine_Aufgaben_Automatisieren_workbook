@@ -4,7 +4,7 @@
 import random, os 
 from pathlib import Path
 
-projekt_ordner = Path(r"F:\Backup-23-01-25-a\D-backup-2023-01-25\desk-ab-21\office-training\Python-ordner-a\python-scripts_vs-code\sonstige_projekte\python_Ai_Sweigert\Routine_Aufgaben_Automatisieren\RandomQuiz_projekt")
+projekt_ordner = Path(r"/projects/RandomQuiz_projekt")
 os.chdir(projekt_ordner)
 print(Path.cwd())
 # Die abzufragenden Daten. Die Schlüssel sind die Bundesstaaten, die Werte 
