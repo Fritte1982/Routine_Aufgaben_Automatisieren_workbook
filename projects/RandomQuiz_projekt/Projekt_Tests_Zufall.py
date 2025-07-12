@@ -4,8 +4,9 @@
 import random, os 
 from pathlib import Path
 
-projekt_ordner = Path(r"/projects/RandomQuiz_projekt")
+projekt_ordner = r"./"
 os.chdir(projekt_ordner)
+output_folder = Path(r"./output")
 print(Path.cwd())
 # Die abzufragenden Daten. Die Schlüssel sind die Bundesstaaten, die Werte 
 # deren Hauptstädte. 
@@ -30,8 +31,8 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona':
 # Erstellt 35 Testfragebogen 
 for quizNum in range(35): 
     # erstellt die Dateien für die Fragen und Lösungsbögen
-    quizFile = open(f"capitalsquiz{quizNum +1}.txt", "w")
-    answerKeyFile = open(f"capitalsquiz_answers{quizNum +1}.txt", "w")
+    quizFile = open(output_folder /f"capitalsquiz{quizNum +1}.txt", "w")
+    answerKeyFile = open(output_folder /f"capitalsquiz_answers{quizNum +1}.txt", "w")
                                 # TODO: Dateien für Frage- und Lösungsbogen erstellen Ok
     # Schreibt den Kopf für den Test
     quizFile.write("Name:\n\nDate:\n\nPeriode:\n\n")
