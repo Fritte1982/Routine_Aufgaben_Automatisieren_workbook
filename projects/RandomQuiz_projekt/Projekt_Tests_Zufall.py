@@ -1,5 +1,5 @@
 #! python3 
-# randomQuizGenerator.py - Erstellt Testfragebogen mit Fragen und Antworten 
+# randomQuizGenerator.py - erstellt Testfragebogen mit Fragen und Antworten
 # in zufälliger Reihenfolge sowie die zugehörigen Lösungsbogen 
 import random, os 
 from pathlib import Path
@@ -43,7 +43,7 @@ for quizNum in range(35):
     states = list(capitals.keys())
     random.shuffle(states)
                         # TODO: Die Reihenfolge der Bundesstaaten durcheinanderwürfeln ok
-    # Durchläuft alle 50 Staaten und erstellt eine Frage für Jedene
+    # Durchläuft alle 50 Staaten und erstellt eine Frage für Jeden
     for questioNum in range(50):
         correctAnswer = capitals[states[questioNum]]
         wrongAnswers = list(capitals.values())
