@@ -24,3 +24,11 @@ dist/
 
 # Ignore temporary files created by Word and other editors
 *~$
+
+# Temporäre Dateien, die mit ~ beginnen
+~*
+
+# Office-Temp-Dateien
+~$*
+*.tmp
+
