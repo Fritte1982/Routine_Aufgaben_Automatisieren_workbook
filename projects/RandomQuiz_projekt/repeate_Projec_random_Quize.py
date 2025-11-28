@@ -4,9 +4,11 @@ from pathlib import Path
 PROJECT_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = PROJECT_DIR.joinpath('output')
 
-capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona':
-'Phoenix', 'Arkansas': 'Little Rock', 'California': 'Sacramento', 'Colorado':
-'Denver', 'Connecticut': 'Hartford', 'Delaware': 'Dover', 'Florida': 'Tallahassee',
+capitals = {
+'Alabama': 'Montgomery', 'Alaska': 'Juneau',
+'Arizona': 'Phoenix', 'Arkansas': 'Little Rock',
+'California': 'Sacramento', 'Colorado': 'Denver',
+'Connecticut': 'Hartford', 'Delaware': 'Dover', 'Florida': 'Tallahassee',
 'Georgia': 'Atlanta', 'Hawaii': 'Honolulu', 'Idaho': 'Boise',
 'Illinois': 'Springfield', 'Indiana': 'Indianapolis', 'Iowa': 'Des Moines',
 'Kansas': 'Topeka', 'Kentucky': 'Frankfort', 'Louisiana': 'Baton Rouge',
@@ -20,7 +22,8 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona':
 'South Carolina': 'Columbia', 'South Dakota': 'Pierre', 'Tennessee':'Nashville',
 'Texas': 'Austin', 'Utah': 'Salt Lake City', 'Vermont': 'Montpelier',
 'Virginia': 'Richmond', 'Washington': 'Olympia', 'West Virginia':
-'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
+'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'
+}
 
 
 for quizNum in range(35):
@@ -35,11 +38,21 @@ for quizNum in range(35):
     random.shuffle(states)
 
 
-for questionNum in range(50):
-    # Ruft die richtigen und falschen Antworten ab
-    correctAnswer = capitals[states[questionNum]]
-    wrongAnswers = list(capitals.values())
-    del wrongAnswers[wrongAnswers.index(correctAnswer)]
-    wrongAnswers = random.sample(wrongAnswers, 3)
-    answerOptions = wrongAnswers + [correctAnswer]
-    random.shuffle(answerOptions)
+    for questionNum in range(50):
+        # Ruft die richtigen und falschen Antworten ab
+        correctAnswer = capitals[states[questionNum]]
+        wrongAnswers = list(capitals.values())
+        del wrongAnswers[wrongAnswers.index(correctAnswer)]
+        wrongAnswers = random.sample(wrongAnswers, 3)
+        answerOptions = wrongAnswers + [correctAnswer]
+        random.shuffle(answerOptions)
+        quizFile.write(f"{quizNum +1}. What ist the capital of {states[questionNum]} ?\n")
+        for i in range(4):
+            quizFile.write(f"    {'ABCD'[i]}. {answerOptions[i]}\n")
+        quizFile.write('\n')
+
+        answerKeyFile.write(f"{quizNum +1}. {"ABCD"[answerOptions.index(correctAnswer)]}\n")
+
+
+    quizFile.close()
+    answerKeyFile.close()
