@@ -9,10 +9,10 @@ r"\Routine_Aufgaben_Automatisieren\Projekt_Datumsformat\Dateien")
 Pfad_Dateien = Path(Pfad_Dateien)
 
 regex =r"""(.{0,})# Gruppe 1  Text vor dem Datum oder Leerstring
-([0-1][0-9]\W)# gruppe 2 Monat, im Orginal mit anschliessenden "-"
-([0-3][0-9]\W)# Gruppe 3 Tag, im Original mit anschliessenden  '-'
+([0-1][0-9]\W)# gruppe 2 Monat, im Orginal mit anschließenden "-"
+([0-3][0-9]\W)# Gruppe 3 Tag, im Original mit anschließenden  '-'
 (\d{4})        # Gruppe 4 Jahr, bleibt so 
-(.*)            # Gruppe 5 Tex nach dem Datum einschlisslich Dateiendung
+(.*)            # Gruppe 5 Text nach dem Datum einschließlich Dateiendung
 """
 regex =re.compile(regex, re.VERBOSE)
 

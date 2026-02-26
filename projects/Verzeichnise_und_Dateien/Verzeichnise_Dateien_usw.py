@@ -18,7 +18,7 @@ for i in content_new_cwd:
     if i.is_file():
        x = datetime.fromtimestamp(i.stat().st_birthtime)
 
-print(f"Gesamt Größer des Ordners {new_cwd.name} ist {total_size} \n "
+print(f"Gesamt-Größe des Ordners {new_cwd.name} ist {total_size} \n "
     f"Die Datei {i.name} ist am {x} erstellt. ")
 cwd = Path.cwd()
 print(cwd)
