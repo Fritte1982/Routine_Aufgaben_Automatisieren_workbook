@@ -9,8 +9,11 @@ PROJECT_STUFF  = PROJECT_FOLDER / "Onlinematerial_2nd" / "automate_online-materi
 AMERICAN_DATE_FOLDER = SOURCES_FOLDER / "american_date_formate"
 LUECKEN_FILES_FOLDER = SOURCES_FOLDER / "lücken_files"
 
+DEBUGGING_CHAP = PROJECT_FOLDER / "debugging"
+DEBUG_OUTPUT_FOLDER = DEBUGGING_CHAP / "output"
+
 def main():
-    if LUECKEN_FILES_FOLDER.exists() and AMERICAN_DATE_FOLDER.exists():
+    if LUECKEN_FILES_FOLDER.exists() and DEBUG_OUTPUT_FOLDER.exists():
         print("folders exists")
 
 if __name__ == '__main__':
