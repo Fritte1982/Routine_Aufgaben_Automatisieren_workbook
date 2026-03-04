@@ -16,19 +16,20 @@ for file in LUECKEN_FILES.iterdir():
         integer =int(numeric_string)
         count_int += 1
 print(count_int)
-
+i =0
 new_names = []
 for file in LUECKEN_FILES.iterdir():
-    for i in range(count_int):
-        match = re.search(pattern, file.name)
-        if match:
-            range_number = i + 1
-            new_numeric_chars = f"00{range_number}"
-            new_filename = re.sub(pattern, new_numeric_chars, file.name)
-            new_names.append(new_filename)
+    # for i in range(count_int):
+    match = re.search(pattern, file.name)
+    if match:
+        i = i + 1
+        range_number = i
+        new_numeric_chars = f"00{range_number}"
+        new_filename = re.sub(pattern, new_numeric_chars, file.name)
+        new_names.append(new_filename)
 
-            if file.name not in new_names:
-                new_path = file.parent / new_filename
-                print(new_path)
-            else:
-                continue
+        if file.name not in new_names:
+            new_path = file.parent / new_filename
+            print(new_path)
+        else:
+            continue
