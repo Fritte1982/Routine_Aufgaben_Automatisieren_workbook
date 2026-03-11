@@ -46,7 +46,7 @@ class InitialLogging:
 
     @staticmethod
     def set_up_logger_std(log_level:str="INFO", formatter_str:str="%(message)s",
-                          logger_name:str=__name__) -> LoggerSetup:
+                          logger_name:str=__name__) -> LoggerSetup :
         """try:
             level_choice = logging._nameToLevel[log_level.upper()] #<-scheint ohne match case zu parsen
         except KeyError:
@@ -71,10 +71,9 @@ class InitialLogging:
         logger.propagate = False #<-
         logger.handlers.clear() #<-
         logger.setLevel(level=level_choice)
-        handler = logging.StreamHandler(sys.stdout) #
 
-
-
+        handler = logging.StreamHandler(sys.stdout)
+        #
         handler.setFormatter(ColorFormatter(formatter_str))
         logger.addHandler(handler)
         return LoggerSetup( logger, handler)

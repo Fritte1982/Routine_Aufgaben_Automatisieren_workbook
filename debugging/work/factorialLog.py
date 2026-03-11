@@ -1,6 +1,10 @@
 import logging
+from settings import paths_attributes
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s- %(message)s')
+
+
 logging.debug('Start of program')
+
 
 def factorial(n):
     logging.debug('Start of factorial(%s%%)' % (n))
@@ -14,3 +18,4 @@ def factorial(n):
 
 print(factorial(5))
 logging.debug('End of program')
+
