@@ -1,7 +1,10 @@
-import logging
-logging.disable()
-logging.basicConfig(level=logging.DEBUG, format = '%(asctime)s - %(levelname)s - %(message)s ')
+from helpers import logging_wfs
+
+logging = logging_wfs.InitialLogging().set_up_logger_std("debug", logger_name=__name__).logger
 logging.debug("Start of the program")
+
+
+
 
 def factorial(n): 
     logging.debug('Start of factorial(%s%%)' % (n)) 
