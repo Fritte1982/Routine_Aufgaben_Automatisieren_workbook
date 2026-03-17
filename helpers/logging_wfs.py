@@ -73,7 +73,6 @@ class InitialLogging:
         logger.setLevel(level=level_choice)
 
         handler = logging.StreamHandler(sys.stdout)
-        #
         handler.setFormatter(ColorFormatter(formatter_str))
         logger.addHandler(handler)
         return LoggerSetup( logger, handler)
