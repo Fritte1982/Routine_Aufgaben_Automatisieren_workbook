@@ -84,6 +84,11 @@ class InitialLogging:
     
     logger.handlers.clear()        # alten Handler entfernen
     logger.addHandler(neuer_handler)
+    
+    
+    import logging 
+    
+    # logging.disable(logging.DEBUG)#<- debug messages off, 
 """
 
 
