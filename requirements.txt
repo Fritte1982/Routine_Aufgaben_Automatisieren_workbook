@@ -1,3 +1,6 @@
 pyperclip
 chardet
 send2trash
+requests
+icecream
+beautifulsoup4
